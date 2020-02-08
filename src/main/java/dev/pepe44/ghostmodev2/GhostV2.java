@@ -38,11 +38,7 @@ public class GhostV2 extends JavaPlugin {
         //Commands
         getCommand("ghost").setExecutor(new GhostCMD());
 
-        try {
-            TimeUnit.SECONDS.sleep(2);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+
         console.sendMessage("§aGhostmode Geladen!");
 
     }

@@ -1,0 +1,8 @@
+name: SnapecraftGhostV2
+version: 3.0
+author: Pepe44DEV
+main: dev.pepe44.ghostmodev2.GhostV2
+description: this command Make Team Members Invisible for Players
+commands:
+  ghost:
+    aliases: [g]
